@@ -1,0 +1,18 @@
+.container{
+    max-width: 600px;
+    max-height: 600px;
+    display: flex;
+    flex-flow: column wrap;
+    box-sizing: content-box;
+    margin: 0 auto;
+    gap:0px;
+    align-content:center
+}
+.dim{
+    width : 20px;
+    height:20px;
+    border:1px solid black;
+}
+h1{
+    text-align: center;
+}
