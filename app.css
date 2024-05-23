@@ -1,12 +1,18 @@
-.container{
-    max-width: 600px;
-    max-height: 600px;
+body{
+     background-image: radial-gradient(circle farthest-corner at center, rgba(238, 187, 165, 1) 35%, rgba(222, 194, 155, 1) 65%, rgba(199, 201, 156, 1) 100%); 
+     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+     .container{
+    max-width: 705px;
+    max-height: 705px;
     display: flex;
     flex-flow: column wrap;
     box-sizing: content-box;
     margin: 0 auto;
     gap:0px;
-    align-content:center
+    align-content:center;
+    border: 1px solid #003366;
+    margin-top: 10px;
 }
 .dim{
     width : 20px;
@@ -15,4 +21,22 @@
 }
 h1{
     text-align: center;
+    color: #003366;
 }
+.buttons{
+    display: flex;
+    justify-content:space-around;
+    max-width: 100%;
+    padding-top: 10px;
+}
+button{
+    padding: 7px 10px;;
+    font-size: 15px;
+    color:aliceblue;
+    background-color: #003366;
+    border-radius: 10px;
+    border: 0px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+  

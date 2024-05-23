@@ -1,5 +1,6 @@
 const container = document.querySelector('.container');
 
+const buttons
 
 
 const squares = document.querySelectorAll('.dim');
