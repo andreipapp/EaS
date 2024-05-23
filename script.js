@@ -63,7 +63,6 @@ randomColorButton.addEventListener('click', () => {
 });
 
 resetButton.addEventListener('click', () => {
-    console.log('working');
     reset();
 })
 
